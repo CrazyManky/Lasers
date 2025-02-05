@@ -34,7 +34,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 89, y: -10.199997}
+  m_AnchoredPosition: {x: 89, y: -10.200012}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5366859758770126160
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 6771823345489120293}
   - component: {fileID: 86058040957216130}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Settings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -474,6 +474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7200422932992015572}
+  - component: {fileID: -5101632627118729886}
   m_Layer: 5
   m_Name: MenuScreen
   m_TagString: Untagged
@@ -502,6 +503,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &-5101632627118729886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5194833711200253347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac24220682777ea4b8ba33e964c4195a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5279178124920780039
 GameObject:
   m_ObjectHideFlags: 0
@@ -515,7 +528,7 @@ GameObject:
   - component: {fileID: 2899541867262640347}
   - component: {fileID: 5995847781026224013}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ShopButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -712,7 +725,7 @@ GameObject:
   - component: {fileID: 315919169404995899}
   - component: {fileID: 6173821644006757052}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PlayButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
