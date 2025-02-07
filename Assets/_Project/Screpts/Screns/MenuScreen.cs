@@ -4,17 +4,20 @@ namespace _Project.Screpts.Screns
     {
         public void ShowSettingsScreen()
         {
+            AudioManager.PlayButtonClick();
             Dialog.ShowSettingsScreen();
         }
 
         public void ShowShopScreen()
         {
+            AudioManager.PlayButtonClick();
             Dialog.ShowShopScreen();
         }
 
         public void ShowGameScreen()
         {
-            Dialog.ShowGameScreen();
+            AudioManager.PlayButtonClick();
+            Dialog.ShowLevelScreen();
         }
     }
 }
