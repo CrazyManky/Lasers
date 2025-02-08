@@ -11,7 +11,7 @@ namespace _Project.Screpts.GamePlay
         [SerializeField] private LaserConfig _laserConfig;
         [SerializeField] private Transform laserStartPoint;
         [SerializeField] private float laserLength = 100f;
-        [SerializeField] private int maxReflections = 5;
+        [SerializeField] private int maxReflections = 10;
         [SerializeField] private LineRenderer lineRenderer;
 
         private Vector2 direction;
@@ -49,10 +49,9 @@ namespace _Project.Screpts.GamePlay
             if (hit.collider != null)
             {
                 laserPositions.Add(hit.point);
-                if (hit.collider.TryGetComponent(out RotationComponent rotationComponent) &&
-                    !rotationComponent.IInteractive)
+                if (hit.collider.TryGetComponent(out RotationComponent rotationComponent) && !rotationComponent.IInteractive)
                     return;
-                Vector2 reflectionDirection = CalculateReflection(currentDirection, hit.normal);
+                Vector2 reflectionDirection = CalculateReflection(currentDirection, hit.normal, hit.transform);
 
                 if (hit.collider.TryGetComponent(out Battary battary))
                 {
@@ -76,13 +75,16 @@ namespace _Project.Screpts.GamePlay
             UpdateLaserLine();
         }
 
-        // Метод для расчёта нового направления отражённого луча
-        Vector2 CalculateReflection(Vector2 direction, Vector2 normal)
+        Vector2 CalculateReflection(Vector2 direction, Vector2 normal, Transform hitTransform)
         {
-            float dotProduct = Vector2.Dot(direction, normal);
-            Vector2 reflection = direction - 2 * dotProduct * normal;
-            return reflection.normalized;
+            if (hitTransform.TryGetComponent(out Reflect reflect))
+            {
+                return reflect.ReflectionDirection;
+            }
+
+            return Vector2.Reflect(direction, normal);
         }
+
 
         void UpdateLaserLine()
         {

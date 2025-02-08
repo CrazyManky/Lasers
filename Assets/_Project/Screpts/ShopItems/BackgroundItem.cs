@@ -41,6 +41,7 @@ namespace _Project.Screpts.ShopItems
             if (_playerWallet.Value >= _priceValue)
             {
                 _text.text = "USE";
+                _shopItem.Unlok = true;
                 _playerWallet.SalleValue(_priceValue);
                 _backgroundConfig.UnlockItem(_itemIndex);
                 _backgroundConfig.SetPlayerBackground(_itemIndex);

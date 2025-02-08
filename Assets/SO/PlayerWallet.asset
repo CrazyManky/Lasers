@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a49134d2046477142a64be88a2dfccf8, type: 3}
   m_Name: PlayerWallet
   m_EditorClassIdentifier: 
-  _value: 5000
+  _value: 0

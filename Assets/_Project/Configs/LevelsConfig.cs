@@ -21,7 +21,7 @@ namespace _Project.Configs
 
         public LevelData GetLevelData(int itemIndex)
         {
-            if (itemIndex >= _levels.Count)
+            if (itemIndex > _levels.Count)
             {
                 CurrentLevel = _levels[new Random().Next(0, _levels.Count)];
                 return _levels[new Random().Next(0, _levels.Count)];
