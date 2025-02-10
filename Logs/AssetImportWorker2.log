@@ -15,7 +15,7 @@ E:/UnityProjects/Lasers
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61686
+61553
 Successfully changed project path to: E:/UnityProjects/Lasers
 E:/UnityProjects/Lasers
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ E:/UnityProjects/Lasers
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [26084]  Target information:
+Player connection [141676]  Target information:
 
-Player connection [26084]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 1696146380 [EditorId] 1696146380 [Version] 1048832 [Id] WindowsEditor(7,Jarvis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [141676]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 3145366034 [EditorId] 3145366034 [Version] 1048832 [Id] WindowsEditor(7,Jarvis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26084]  * "[IP] 10.0.236.10 [Port] 0 [Flags] 2 [Guid] 1696146380 [EditorId] 1696146380 [Version] 1048832 [Id] WindowsEditor(7,Jarvis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [141676]  * "[IP] 10.0.236.10 [Port] 0 [Flags] 2 [Guid] 3145366034 [EditorId] 3145366034 [Version] 1048832 [Id] WindowsEditor(7,Jarvis) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [26084] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [26084] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [141676] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [141676] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-Refreshing native plugins compatible for Editor in 56.59 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 114.98 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.54f1 (129125d4e700)
 [Subsystems] Discovering subsystems at path D:/Programs/2022.3.54f1/Editor/Data/Resources/UnitySubsystems
@@ -74,48 +74,48 @@ Initialize mono
 Mono path[0] = 'D:/Programs/2022.3.54f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programs/2022.3.54f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Programs/2022.3.54f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56616
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programs/2022.3.54f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: D:/Programs/2022.3.54f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003786 seconds.
-- Loaded All Assemblies, in  1.679 seconds
+Registered in 0.003305 seconds.
+- Loaded All Assemblies, in  1.923 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.067 seconds
-Domain Reload Profiling: 2747ms
-	BeginReloadAssembly (275ms)
+- Finished resetting the current domain, in  1.258 seconds
+Domain Reload Profiling: 3183ms
+	BeginReloadAssembly (303ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (257ms)
-	RebuildNativeTypeToScriptingClass (61ms)
-	initialDomainReloadingComplete (180ms)
-	LoadAllAssembliesAndSetupDomain (905ms)
-		LoadAssemblies (274ms)
+	RebuildCommonClasses (322ms)
+	RebuildNativeTypeToScriptingClass (71ms)
+	initialDomainReloadingComplete (202ms)
+	LoadAllAssembliesAndSetupDomain (1026ms)
+		LoadAssemblies (301ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (901ms)
-			TypeCache.Refresh (897ms)
-				TypeCache.ScanAssembly (859ms)
+		AnalyzeDomain (1021ms)
+			TypeCache.Refresh (1017ms)
+				TypeCache.ScanAssembly (973ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (1068ms)
+	FinalizeReload (1260ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (899ms)
+		SetupLoadedEditorAssemblies (1080ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (113ms)
-			SetLoadedEditorAssemblies (17ms)
+			InitializePlatformSupportModulesInManaged (121ms)
+			SetLoadedEditorAssemblies (19ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (9ms)
-			ProcessInitializeOnLoadAttributes (565ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
+			BeforeProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (680ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -124,900 +124,52 @@ Domain Reload Profiling: 2747ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  3.003 seconds
+- Loaded All Assemblies, in  3.730 seconds
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.427 seconds
-Domain Reload Profiling: 5431ms
-	BeginReloadAssembly (806ms)
+- Finished resetting the current domain, in  2.441 seconds
+Domain Reload Profiling: 6172ms
+	BeginReloadAssembly (937ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (27ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (339ms)
-	RebuildCommonClasses (325ms)
-	RebuildNativeTypeToScriptingClass (76ms)
-	initialDomainReloadingComplete (144ms)
-	LoadAllAssembliesAndSetupDomain (1651ms)
-		LoadAssemblies (595ms)
+		CreateAndSetChildDomain (392ms)
+	RebuildCommonClasses (371ms)
+	RebuildNativeTypeToScriptingClass (79ms)
+	initialDomainReloadingComplete (148ms)
+	LoadAllAssembliesAndSetupDomain (2195ms)
+		LoadAssemblies (714ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1290ms)
-			TypeCache.Refresh (1124ms)
-				TypeCache.ScanAssembly (1080ms)
-			ScanForSourceGeneratedMonoScriptInfo (111ms)
-			ResolveRequiredComponents (54ms)
-	FinalizeReload (2429ms)
+		AnalyzeDomain (1737ms)
+			TypeCache.Refresh (1528ms)
+				TypeCache.ScanAssembly (1453ms)
+			ScanForSourceGeneratedMonoScriptInfo (134ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (2443ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1768ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
-			SetLoadedEditorAssemblies (11ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (1373ms)
-			ProcessInitializeOnLoadMethodAttributes (142ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (21ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
-Refreshing native plugins compatible for Editor in 3.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4016 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 34 unused Assets / (57.6 KB). Loaded Objects now: 4490.
-Memory consumption went from 144.3 MB to 144.2 MB.
-Total: 3.687700 ms (FindLiveObjects: 0.344800 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.121900 ms  DeleteObjects: 0.103000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 899511.972624 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8a8593a17c640669572fa12c92091b20') in 0.295905 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 4.337297 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd788dd6b0997bf85d6cebd14814933b9') in 0.029623 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.369 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.834 seconds
-Domain Reload Profiling: 5205ms
-	BeginReloadAssembly (1338ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (386ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (560ms)
-	RebuildCommonClasses (375ms)
-	RebuildNativeTypeToScriptingClass (85ms)
-	initialDomainReloadingComplete (108ms)
-	LoadAllAssembliesAndSetupDomain (462ms)
-		LoadAssemblies (656ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (73ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (65ms)
-	FinalizeReload (2836ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1834ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (82ms)
-			SetLoadedEditorAssemblies (12ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (172ms)
-			ProcessInitializeOnLoadAttributes (1396ms)
-			ProcessInitializeOnLoadMethodAttributes (167ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (54ms)
-Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.3 KB). Loaded Objects now: 4504.
-Memory consumption went from 142.7 MB to 142.7 MB.
-Total: 3.498100 ms (FindLiveObjects: 0.359800 ms CreateObjectMapping: 0.111900 ms MarkObjects: 2.968900 ms  DeleteObjects: 0.056400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 29.530837 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e432e445186d89b6acb9b6d1a041d204') in 0.268792 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 0.610841 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3e4248244226cbfe8923ef87c109c35d') in 0.022125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 22.661830 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f95216e6f52ac264ddcc245796101377') in 0.024146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 10.285428 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4c7db3113f56f7a8664b2824d0b9f7be') in 0.024017 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 22.327045 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4c0fefd9759110a0bdd895bdcbee33a2') in 0.019235 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 5.022058 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '0f8c309f803a73dfea6c0ec24e3f780d') in 0.019539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 9.477984 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2a298e58501f37fe7b4eb2946613b4bc') in 0.023075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 2.805644 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e10ba8f6a211ab5991a499d2a365ff09') in 0.019326 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.178889 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e68b9a8ab43a3ba16ca728d474abd1da') in 0.018871 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 8.527671 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9edef1b208113d8c8f9a4c2112e45b96') in 0.019692 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 4.809607 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '1790ffcaae124c31a1afd7ebc6b61559') in 0.019741 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 22.492312 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd0a8acb6e9072de468047cbf47e632a6') in 0.023814 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 142.332054 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelEithine.prefab
-  artifactKey: Guid(8bb8c1c12de705e4395b5ef626deded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelEithine.prefab using Guid(8bb8c1c12de705e4395b5ef626deded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c2eac522da0317b3194d7cabb4b0207e') in 0.030133 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelNine.prefab
-  artifactKey: Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelNine.prefab using Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3168110f1c5575922fbe1e2c1f5f6de1') in 0.026379 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelOne.prefab
-  artifactKey: Guid(7b26f24662bf43747ba32480c6bd49c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelOne.prefab using Guid(7b26f24662bf43747ba32480c6bd49c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ff16ea96ab8b5f9d7e44b232349bf801') in 0.027570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFour.prefab
-  artifactKey: Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFour.prefab using Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '20a76a4d743407b6cf6f121bd66de6bd') in 0.026162 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '47009ab8569751df9055c9a77a5e2437') in 0.030579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTen.prefab
-  artifactKey: Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTen.prefab using Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c086be00e83b21d551e39da9b03d3b89') in 0.058919 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSix.prefab
-  artifactKey: Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSix.prefab using Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c9143a2370075e769c16c51e8ed67810') in 0.027192 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 52.400135 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9dd59de828474f8fc31ca6602cd34628') in 0.026917 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 10.100203 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'd9229dcc7e84b4d0132262080acc65fc') in 0.024242 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.973 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.131 seconds
-Domain Reload Profiling: 5105ms
-	BeginReloadAssembly (910ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (54ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (479ms)
-	RebuildCommonClasses (350ms)
-	RebuildNativeTypeToScriptingClass (80ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (629ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (18ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (79ms)
-			ResolveRequiredComponents (60ms)
-	FinalizeReload (3133ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1850ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (197ms)
-			ProcessInitializeOnLoadAttributes (1400ms)
-			ProcessInitializeOnLoadMethodAttributes (147ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (55ms)
-Refreshing native plugins compatible for Editor in 4.14 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.2 KB). Loaded Objects now: 4508.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 3.700300 ms (FindLiveObjects: 0.372200 ms CreateObjectMapping: 0.107300 ms MarkObjects: 3.164000 ms  DeleteObjects: 0.055900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 561.709698 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelNine.prefab
-  artifactKey: Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelNine.prefab using Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '95bd141570c00b9239b47e64effa52fc') in 0.297558 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelEithine.prefab
-  artifactKey: Guid(8bb8c1c12de705e4395b5ef626deded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelEithine.prefab using Guid(8bb8c1c12de705e4395b5ef626deded7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'da775794d067218134037ed6a6d03c1f') in 0.025847 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9959182f535703e550469ee9143d92e5') in 0.021785 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTen.prefab
-  artifactKey: Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTen.prefab using Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '721bb735c358d9ce8651968cf6ea0520') in 0.021574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSix.prefab
-  artifactKey: Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSix.prefab using Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '68a5eb00fef2e8ead15b66a71ef84216') in 0.020941 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'ce2caf6d9ac5714ba2c711370e0629aa') in 0.019977 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.928 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.235 seconds
-Domain Reload Profiling: 5165ms
-	BeginReloadAssembly (916ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (62ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (470ms)
-	RebuildCommonClasses (353ms)
-	RebuildNativeTypeToScriptingClass (81ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (472ms)
-		LoadAssemblies (652ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (73ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (65ms)
-	FinalizeReload (3238ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1882ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (76ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (184ms)
-			ProcessInitializeOnLoadAttributes (1451ms)
-			ProcessInitializeOnLoadMethodAttributes (154ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (57ms)
-Refreshing native plugins compatible for Editor in 3.75 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4512.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 4.408400 ms (FindLiveObjects: 0.397200 ms CreateObjectMapping: 0.108900 ms MarkObjects: 3.834200 ms  DeleteObjects: 0.066900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 265.136056 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFive.prefab
-  artifactKey: Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFive.prefab using Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '150c58e72934f1777c4f3716eef124ae') in 0.303008 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.024 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.285 seconds
-Domain Reload Profiling: 5311ms
-	BeginReloadAssembly (928ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (63ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (479ms)
-	RebuildCommonClasses (346ms)
-	RebuildNativeTypeToScriptingClass (89ms)
-	initialDomainReloadingComplete (106ms)
-	LoadAllAssembliesAndSetupDomain (554ms)
-		LoadAssemblies (665ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (16ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (80ms)
-			ResolveRequiredComponents (61ms)
-	FinalizeReload (3288ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1990ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (79ms)
-			SetLoadedEditorAssemblies (16ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (214ms)
-			ProcessInitializeOnLoadAttributes (1523ms)
-			ProcessInitializeOnLoadMethodAttributes (152ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (2ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (62ms)
-Refreshing native plugins compatible for Editor in 4.54 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.2 KB). Loaded Objects now: 4516.
-Memory consumption went from 142.8 MB to 142.8 MB.
-Total: 4.268900 ms (FindLiveObjects: 0.402400 ms CreateObjectMapping: 0.127600 ms MarkObjects: 3.643500 ms  DeleteObjects: 0.094300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 18.406449 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelNine.prefab
-  artifactKey: Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelNine.prefab using Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'c3c499b1e6c82f65d841a83c0c5e9d92') in 0.297764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFree.prefab
-  artifactKey: Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFree.prefab using Guid(4ec56bc8cc7bdbd4da3e2bb3e0420ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b6081ecc56e101076ed178b334f437dd') in 0.021501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSix.prefab
-  artifactKey: Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSix.prefab using Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '2611504a27898b3a77e84ebaa2d2e909') in 0.026744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '571218783b623c54134b6f9461aa9d6d') in 0.037132 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Import Request.
-  Time since last request: 3.161605 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFive.prefab
-  artifactKey: Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFive.prefab using Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'f3dac4662c68a6b2e24244b1a6a7d607') in 0.021281 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelNine.prefab
-  artifactKey: Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelNine.prefab using Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e9ec5ef03f21f2068156fd84537a3cc1') in 0.021038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSix.prefab
-  artifactKey: Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSix.prefab using Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'bb471bd0132dad4c0714db60f3372856') in 0.024273 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.031 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.935 seconds
-Domain Reload Profiling: 4969ms
-	BeginReloadAssembly (913ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (52ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (465ms)
-	RebuildCommonClasses (368ms)
-	RebuildNativeTypeToScriptingClass (82ms)
-	initialDomainReloadingComplete (103ms)
-	LoadAllAssembliesAndSetupDomain (565ms)
-		LoadAssemblies (676ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (84ms)
-			ResolveRequiredComponents (60ms)
-	FinalizeReload (2938ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1709ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (74ms)
-			SetLoadedEditorAssemblies (13ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (180ms)
-			ProcessInitializeOnLoadAttributes (1298ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (47ms)
-Refreshing native plugins compatible for Editor in 3.51 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4520.
-Memory consumption went from 142.9 MB to 142.8 MB.
-Total: 3.415500 ms (FindLiveObjects: 0.350700 ms CreateObjectMapping: 0.117300 ms MarkObjects: 2.891700 ms  DeleteObjects: 0.054800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 43.230231 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFive.prefab
-  artifactKey: Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFive.prefab using Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '242684927cebf9a40a0e1dab95c9d676') in 0.270928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTen.prefab
-  artifactKey: Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTen.prefab using Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'fc6aea0fa11226dda5ec6785edaff51a') in 0.023526 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSeven.prefab
-  artifactKey: Guid(eb6d025a0d5f5e845b43866dc7f4bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSeven.prefab using Guid(eb6d025a0d5f5e845b43866dc7f4bba6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'b23ac8a08ae69e8169da57889fab0ace') in 0.021514 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.032 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.129 seconds
-Domain Reload Profiling: 5162ms
-	BeginReloadAssembly (920ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (54ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (484ms)
-	RebuildCommonClasses (356ms)
-	RebuildNativeTypeToScriptingClass (88ms)
-	initialDomainReloadingComplete (104ms)
-	LoadAllAssembliesAndSetupDomain (564ms)
-		LoadAssemblies (662ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (158ms)
-			TypeCache.Refresh (13ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (81ms)
-			ResolveRequiredComponents (62ms)
-	FinalizeReload (3131ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1820ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (90ms)
-			SetLoadedEditorAssemblies (17ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (205ms)
-			ProcessInitializeOnLoadAttributes (1370ms)
-			ProcessInitializeOnLoadMethodAttributes (136ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (48ms)
-Refreshing native plugins compatible for Editor in 5.45 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4524.
-Memory consumption went from 142.9 MB to 142.8 MB.
-Total: 3.539300 ms (FindLiveObjects: 0.345500 ms CreateObjectMapping: 0.121100 ms MarkObjects: 3.017900 ms  DeleteObjects: 0.053800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.016 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  2.972 seconds
-Domain Reload Profiling: 4991ms
-	BeginReloadAssembly (901ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (57ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (476ms)
-	RebuildCommonClasses (351ms)
-	RebuildNativeTypeToScriptingClass (80ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (576ms)
-		LoadAssemblies (637ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (183ms)
-			TypeCache.Refresh (17ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (94ms)
-			ResolveRequiredComponents (72ms)
-	FinalizeReload (2975ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1759ms)
+		SetupLoadedEditorAssemblies (1782ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (73ms)
 			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (177ms)
-			ProcessInitializeOnLoadAttributes (1352ms)
-			ProcessInitializeOnLoadMethodAttributes (141ms)
+			BeforeProcessingInitializeOnLoad (167ms)
+			ProcessInitializeOnLoadAttributes (1357ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (48ms)
-Refreshing native plugins compatible for Editor in 5.30 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (20ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 4.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4528.
-Memory consumption went from 143.1 MB to 143.1 MB.
-Total: 4.511400 ms (FindLiveObjects: 0.404700 ms CreateObjectMapping: 0.110900 ms MarkObjects: 3.921300 ms  DeleteObjects: 0.073300 ms)
+Unloading 4173 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (57.1 KB). Loaded Objects now: 4647.
+Memory consumption went from 147.2 MB to 147.2 MB.
+Total: 4.026000 ms (FindLiveObjects: 0.321500 ms CreateObjectMapping: 0.135400 ms MarkObjects: 3.457800 ms  DeleteObjects: 0.110400 ms)
 
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -1032,217 +184,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 38.166827 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelNine.prefab
-  artifactKey: Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelNine.prefab using Guid(9e451a512172d654aa72b427d6ad6e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '82a6e144b940aa6ddc202f2310501d01') in 0.260302 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 99
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFour.prefab
-  artifactKey: Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFour.prefab using Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '05a3ac37246ff416d81ae697aa2d7b6e') in 0.023407 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTen.prefab
-  artifactKey: Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTen.prefab using Guid(a25360ed0c3d68f4395ac3e32026d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '8cd3c90804bcef7e3f15ddc8bdfe0f59') in 0.023603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 120
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelTwo.prefab
-  artifactKey: Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelTwo.prefab using Guid(654290a2efbf66c44a2da771ee57026c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: 'e5526d0eaa72220bffb617ae8105adaa') in 0.020717 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 71
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.105 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.236 seconds
-Domain Reload Profiling: 5343ms
-	BeginReloadAssembly (941ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (57ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (483ms)
-	RebuildCommonClasses (398ms)
-	RebuildNativeTypeToScriptingClass (91ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (567ms)
-		LoadAssemblies (677ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (170ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (3ms)
-			ScanForSourceGeneratedMonoScriptInfo (90ms)
-			ResolveRequiredComponents (65ms)
-	FinalizeReload (3239ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1916ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (80ms)
-			SetLoadedEditorAssemblies (14ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (209ms)
-			ProcessInitializeOnLoadAttributes (1454ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
-Refreshing native plugins compatible for Editor in 4.71 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3988 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4532.
-Memory consumption went from 142.9 MB to 142.8 MB.
-Total: 3.913100 ms (FindLiveObjects: 0.560000 ms CreateObjectMapping: 0.118800 ms MarkObjects: 3.165700 ms  DeleteObjects: 0.066900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.947 seconds
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.313 seconds
-Domain Reload Profiling: 5262ms
-	BeginReloadAssembly (913ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (60ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (463ms)
-	RebuildCommonClasses (365ms)
-	RebuildNativeTypeToScriptingClass (95ms)
-	initialDomainReloadingComplete (99ms)
-	LoadAllAssembliesAndSetupDomain (474ms)
-		LoadAssemblies (674ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (71ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (63ms)
-	FinalizeReload (3316ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1882ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (101ms)
-			SetLoadedEditorAssemblies (18ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (199ms)
-			ProcessInitializeOnLoadAttributes (1404ms)
-			ProcessInitializeOnLoadMethodAttributes (155ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (54ms)
-Refreshing native plugins compatible for Editor in 5.03 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3989 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (31.1 KB). Loaded Objects now: 4536.
-Memory consumption went from 143.1 MB to 143.1 MB.
-Total: 4.653800 ms (FindLiveObjects: 0.394600 ms CreateObjectMapping: 0.107200 ms MarkObjects: 4.077900 ms  DeleteObjects: 0.073000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 57.273207 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFive.prefab
-  artifactKey: Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFive.prefab using Guid(19a17adf614ecb34398acf8f50335c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '57434a1681b127578c3b8a3db91cad25') in 0.334504 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelFour.prefab
-  artifactKey: Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelFour.prefab using Guid(512b957b8380b42409715570b20a92a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '4339db96175bec6260c311f9a8e1925e') in 0.020706 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 85
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelOne.prefab
-  artifactKey: Guid(7b26f24662bf43747ba32480c6bd49c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelOne.prefab using Guid(7b26f24662bf43747ba32480c6bd49c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '9fdc9af23616a849fc78a4fa0d86ec4b') in 0.020031 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 48
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/_Project/Prefabs/Levels/LevelSix.prefab
-  artifactKey: Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_Project/Prefabs/Levels/LevelSix.prefab using Guid(6571ac01821ed5f4987cd4d10b857596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
- -> (artifact id: '3c11954f9477dd9eca5f1727bfa7ddae') in 0.020149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 92
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
